@@ -14,7 +14,6 @@ class Account {
     static successMessage(arg){
         cy.get('[ng-show="message"]').should('contain', arg)
     }
-
 }
 
 export default Account;
